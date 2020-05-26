@@ -7,7 +7,7 @@ This is custom sort repository for [DataTable](https://datatables.net/).
 If you don't have data you can set "-" and tell DataTable to treat "-" 
 as the largest or smallest value in a given column. 
 
-### Usage example: 
+##### Usage example: 
 
 Init the table:
 
