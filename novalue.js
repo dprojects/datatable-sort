@@ -1,15 +1,20 @@
 /**
- * When sorting values in a DataTable you might want to keep a specific
- * item at the beginning or end of the column. This is very useful if You 
- * want to sort incomplete data and there is no data available for each entry 
- * in a row. If You do not have data, You can set the novalue pattern to '-' 
- * and set exact column to treat this novalue pattern '-' as the highest 
- * value or the lowest one.
+ * When sorting values in a DataTable you might want to sort any 'novalue' 
+ * pattern as max or min value in a column (e.g. '-' treat as -1000 or 1000).
+ * 
+ * This is very useful if You want to sort incomplete data, there is no 
+ * data available for each entry in a column (e.g. Recovered for covid-19). 
+ * 
+ * If You do not have data, You can set the 'novalue' pattern to '-' or 
+ * any other pattern and set exact column to treat this 'novalue' pattern 
+ * as the max value (sethigh) or the min value (setlow).
  * 
  * @name novalue.js
- * @summary Keep novalue pattern at the end or at the beginning of the column.
+ * @summary Sort any "novalue" pattern as max or min (e.g. '-' treat as -1000 or 1000).
+ * @author Darek L https://github.com/dprojects
  * 
  * @example
+ * 
  *      gTable = $('#covid-table').DataTable({
  *                  "orderClasses": true,
  *                  "responsive": true,
