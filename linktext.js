@@ -24,9 +24,6 @@
  * To change order later:
  * 
  *      gTable.order([1, 'desc']).draw();
- * 
- * 
- * 
  */
 
 $.extend( $.fn.dataTableExt.oSort, {
@@ -46,16 +43,16 @@ $.extend( $.fn.dataTableExt.oSort, {
 	"linktext-asc": function ( a, b ) {
 	    
         let x = a.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
-		let y = b.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
-    	
+        let y = b.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
+
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
 	},
 	"linktext-desc": function ( a, b ) {
         
-		let x = a.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
-		let y = b.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
+        let x = a.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
+        let y = b.replace(/<[\s\S]*?>/g,"").replace(/\s/g,"").replace(".","").replace(",","");
         
-		return ((x < y) ? 1 : ((x > y) ? -1 : 0));
+        return ((x < y) ? 1 : ((x > y) ? -1 : 0));
 	}
 });
 */
