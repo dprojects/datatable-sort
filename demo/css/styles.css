@@ -1,0 +1,41 @@
+/* -----------------------------------------------------------------------------------------------------------------------
+   BOXES
+   -------------------------------------------------------------------------------------------------------------------- */
+
+.box-page {
+    width: 100%;
+}
+.box-table {
+    width: auto;
+    box-shadow: 15px 15px #DDDDFF;
+    padding: 0px 15px 15px 0px;
+    margin: 0px 15px 15px 0px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+   TABLE
+   -------------------------------------------------------------------------------------------------------------------- */
+
+#demo-table {
+    width: auto !important;
+}
+.col0 {
+    text-align: left;
+    white-space: nowrap !important;
+}
+th.col0 {
+    padding-left: 10px !important;
+}
+.col1 {
+    text-align: left;
+    white-space: nowrap !important;
+    padding-left: 5px !important;
+}
+.col2, .col3 {
+    text-align: right;
+    white-space: nowrap !important;
+    padding-right: 5px !important;
+}
+.sorting_1 {
+    background-color: #DDDDFF !important;
+}
