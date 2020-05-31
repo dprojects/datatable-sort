@@ -9,7 +9,7 @@
  * <a href="http://1example.com">3 Link text</a>
  * 
  * @name linktext.js
- * @summary sort link text not url
+ * @summary Sort link text not url.
  * @author Darek L https://github.com/dprojects
  * 
  * @example
